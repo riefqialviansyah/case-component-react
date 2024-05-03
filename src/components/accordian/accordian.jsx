@@ -29,7 +29,7 @@ export default function Accordian() {
   }
   return (
     <>
-      <div className="content">
+      <div className="contentAccordian">
         <h1 className="header" style={{ color: "black" }}>
           Accordian
         </h1>

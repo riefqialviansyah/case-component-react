@@ -36,8 +36,8 @@ export default function RandomColor() {
   }, [typeOfColor]);
 
   return (
-    <div className="content" style={{ backgroundColor: color }}>
-      <div className="flex flex-col">
+    <div className="contentRandomC" style={{ backgroundColor: color }}>
+      <div className="boxRandomC">
         <h1 className="header self-center rounded-lg my-2">Random Color</h1>
         <div className="button">
           <button
@@ -65,7 +65,7 @@ export default function RandomColor() {
           </button>
         </div>
       </div>
-      <div className="h-svh flex items-center">
+      <div className="h-svh flex justify-center items-center">
         <h1 className="text-white text-5xl opacity-70">
           {typeOfColor} : {color}
         </h1>
