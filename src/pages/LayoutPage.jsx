@@ -1,4 +1,5 @@
 import Accordian from "../components/accordian/accordian";
+import ImageSlider from "../components/image-slider/image-slider";
 import RandomColor from "../components/random-color/ramdom-color";
 import StarRating from "../components/star-rating/star-rating";
 
@@ -11,8 +12,11 @@ export default function LayoutPage() {
       {/* Random color */}
       <RandomColor />
 
-      {/* Srat rating component */}
+      {/* Star rating component */}
       <StarRating />
+
+      {/* Image slider */}
+      <ImageSlider url={"https://picsum.photos/v2/list"} />
     </>
   );
 }
