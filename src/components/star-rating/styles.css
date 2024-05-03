@@ -1,0 +1,14 @@
+.contentRating {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.active {
+  color: yellow;
+}
+
+.inactive {
+  color: black;
+}
