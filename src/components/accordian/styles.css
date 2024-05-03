@@ -1,0 +1,24 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.box-question {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+
+.box-content {
+  width: 50%;
+  text-align: center;
+}
+
+.box-answer {
+  padding: 5px;
+}
