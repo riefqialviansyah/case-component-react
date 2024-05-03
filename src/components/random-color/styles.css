@@ -1,0 +1,25 @@
+.content {
+  display: flex;
+  justify-content: start;
+}
+
+.header {
+  text-align: center;
+  color: black;
+  background-color: white;
+  width: 50%;
+}
+
+.button {
+  display: flex;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  gap: 10px;
+}
+
+.button button {
+  background-color: #007bff;
+  padding: 2px 5px;
+  border-radius: 5px;
+}

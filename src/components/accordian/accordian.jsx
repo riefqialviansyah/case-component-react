@@ -27,11 +27,12 @@ export default function Accordian() {
 
     setArrSelected(cpyArrSelected);
   }
-  console.log(selected, arrSelected, isMultiple);
   return (
     <>
       <div className="content">
-        <h1 className="header">Accordian</h1>
+        <h1 className="header" style={{ color: "black" }}>
+          Accordian
+        </h1>
         {isMultiple ? (
           <>
             <div
