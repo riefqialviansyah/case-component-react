@@ -1,0 +1,34 @@
+.containerData {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.boxProduct {
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+}
+
+.btn-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.btn-more button {
+  padding: 10px 20px;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
